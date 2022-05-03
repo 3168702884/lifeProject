@@ -1,0 +1,277 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*头部 */
+.start {
+	width: 90%;
+	height: 140rpx
+		/* 20% */
+	;
+	margin: 50rpx;
+	border-radius: 20rpx;
+	box-shadow: 20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		-20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx 20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx -20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.start image {
+	width: 50rpx; 
+	height: 60rpx;
+}
+.start ._p {
+	color: #333333;
+	font-size: small;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*头部下各个板块 */
+.shijian {
+	box-shadow: 10rpx 0rpx 10rpx 0rpx rgba(0, 0, 0, 0.1),
+		-10rpx 0rpx 10rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx 10rpx 10rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx -10rpx 10rpx 0rpx rgba(0, 0, 0, 0.1);
+	border-radius: 20rpx;
+}
+.nav {
+	width: 120rpx;
+	height: 100rpx;
+	/* display: flex;
+		flex-direction: column; */
+	padding-left: -20rpx;
+}
+.nav image {
+	width: 50rpx;
+	height: 40rpx;
+}
+.nav .sr {
+	width: 130rpx;
+	height: 60rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border: 1rpx solid #000;
+	border-radius: 20rpx;
+	/* padding-bottom: 10rpx; */
+}
+.nav .zc {
+	width: 130rpx;
+	height: 60rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border: 1rpx solid #000;
+	border-radius: 20rpx;
+	/* padding-top: 10rpx; */
+}
+

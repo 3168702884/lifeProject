@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "information-u-waterfall-left": "/pages/market/information-u-waterfall-left",
+    "information-u-waterfall-right": "/pages/market/information-u-waterfall-right",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

@@ -1,0 +1,796 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*头部 */
+.start {
+	width: 90%;
+	height: 140rpx
+		/* 20% */
+	;
+	margin: 50rpx;
+	border-radius: 20rpx;
+	box-shadow: 20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		-20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx 20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx -20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.start image{
+	width: 50rpx;
+	height: 60rpx;
+}
+.start ._p{
+	color: #333333;
+	font-size: small;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*头部下各个板块 */
+.shijian {
+		box-shadow: 10rpx 0rpx 10rpx 0rpx rgba(0, 0, 0, 0.1),
+			-10rpx 0rpx 10rpx 0rpx rgba(0, 0, 0, 0.1),
+			0rpx 10rpx 10rpx 0rpx rgba(0, 0, 0, 0.1),
+			0rpx -10rpx 10rpx 0rpx rgba(0, 0, 0, 0.1);
+		border-radius: 20rpx;
+}
+.xianshi-img{
+		border-radius: 20rpx;
+		width: 60rpx;
+		height: 60rpx;
+}
+.xianshi {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		margin-right: 20rpx;
+}
+.shuzi {
+			-webkit-box-flex: 2;
+			-webkit-flex-grow: 2;
+			        flex-grow: 2;
+}
+.xiahuaxian{
+			width: 120rpx;
+			height:10rpx;
+			background-color: #000;
+			border:  20rpx soild #000;
+			border-radius:50rpx;
+}
+.nav{
+		width: 120rpx;
+		height:100rpx;
+		/* display: flex;
+		flex-direction: column; */
+		padding-left: -20rpx;
+}
+.nav image{
+			width: 50rpx;
+			height: 40rpx;
+}
+.nav .sr{
+			width: 130rpx;
+			height: 60rpx;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: row;
+			        flex-direction: row;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+			border: 1rpx solid #000;
+			border-radius: 20rpx;
+			/* padding-bottom: 10rpx; */
+}
+.nav .zc{
+			width: 130rpx;
+			height: 60rpx;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: row;
+			        flex-direction: row;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+			border: 1rpx solid #000;
+			border-radius: 20rpx;
+			/* padding-top: 10rpx; */
+}
+/*中间 */
+.mid {
+	width: 90%;
+	height: 300rpx
+		/* 40% */
+	;
+	margin: 50rpx;
+	/* padding-bottom: 50rpx; */
+	border-radius: 20rpx;
+	box-shadow: 20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		-20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx 20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx -20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+/*盒子内样式 */
+.mid .box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	width: 100rpx;
+	height: 100rpx;
+	margin: 10rpx;
+	padding: 10rpx;
+	/*鼠标放上去样式 */
+	cursor: pointer;
+}
+.mid .box .img {
+	/*图片在盒子里垂直水平居中 */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 20rpx;
+	/* background-color: aqua; */
+	/*盒子阴影 */
+	box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2),
+		-18px -18px 30px rgba(255, 266, 255, 1),
+		inset 10rpx 10rpx 30rpx rgb(0, 0, 0, 0.1),
+		inset -10rpx -10rpx 30rpx rgba(255, 266, 255, 1);
+	/*过度时间先快速后慢速 */
+	/* transition: all 0.2s ease-out; */
+}
+.mid .box .img image {
+	width: 60rpx;
+	height: 60rpx;
+	/* transition: all 0.2s ease-out; */
+}
+.mid .box ._p {
+	color: #333333;
+	font-size: xx-small;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .mid .box:hove{
+		box-shadow:0 0 0 rgba(0,0,0,0.2),rgba(255,255,255,0.8),
+		 inset 18rpx 18rpx 30rpx rgb(0,0,0,0.1) ,
+		 inset -18rpx -18rpx 30rpx rgba(255,266,255,1) ;
+	}
+	.mid .box:hover img{
+		width: 58rpx;
+	} */
+/*数字键盘 */
+.numbutton {
+	width: 90%;
+	height: 410rpx
+		/* 40% */
+	;
+
+	border-radirs: 50rpx;
+	margin: 50rpx;
+	border-radius: 20rpx;
+	box-shadow: 10rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		-10rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx 10rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
+		0rpx -10rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.bg {
+	background: #eee;
+}
+.btns {
+	-webkit-flex-basis: 75%;
+	        flex-basis: 75%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	font-size: 17pt;
+	border-top: 1rpx solid #ccc;
+	border-left: 1rpx solid #ccc;
+	border-radirs: 50rpx;
+}
+.btns>view {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.btns>view>view {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	border-right: 1rpx solid #ccc;
+	border-bottom: 1rpx solid #ccc;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.btns>view:last-child>view:first-child {
+	-webkit-flex-basis: 33%;
+	        flex-basis: 33%;
+}
+.btns-gn {
+	-webkit-flex-basis: 25%;
+	        flex-basis: 25%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 17pt;
+	background: #F4F5F6;
+}
+

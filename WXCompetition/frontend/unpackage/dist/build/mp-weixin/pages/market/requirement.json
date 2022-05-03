@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "requirement-u-waterfall-left": "/pages/market/requirement-u-waterfall-left",
+    "requirement-u-waterfall-right": "/pages/market/requirement-u-waterfall-right",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

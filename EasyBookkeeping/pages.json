@@ -1,0 +1,64 @@
+{
+	"pages": [{
+			"path": "pages/index/index-income",
+			"style": {
+				"navigationBarTitleText":"我的收入"
+			}
+		},
+		{
+			"path": "pages/index/index-expend",
+			"style": {
+				"navigationBarTitleText":"我的支出"
+			}
+		},
+		{
+			"path": "pages/tongji/tongji-expend",
+			"style": {
+				"navigationBarTitleText":"统计收入"
+			}
+		},
+		{
+			"path": "pages/tongji/tongji-income",
+			"style": {
+				"navigationBarTitleText":"统计支出"
+			}
+		}
+	    ,{
+            "path" : "pages/tongji/uCharts/uCharts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "我的记账",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#002043",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/index-income",
+				"iconPath":"static/tabbar/统计.png",
+				"selectedIconPath":"static/tabbar/统计.png",
+				"text": "账单"
+			},
+			{
+				"pagePath": "pages/tongji/tongji-income",
+				"iconPath":"static/tabbar/账单.png",
+				"selectedIconPath":"static/tabbar/账单.png",
+				"text": "统计"
+			}
+		]
+	}
+}

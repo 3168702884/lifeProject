@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "searchRequire-u-waterfall-left": "/pages/search/searchRequire-u-waterfall-left",
+    "searchRequire-u-waterfall-right": "/pages/search/searchRequire-u-waterfall-right",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

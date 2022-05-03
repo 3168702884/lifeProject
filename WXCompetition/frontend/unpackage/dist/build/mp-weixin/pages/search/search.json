@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "search-u-waterfall-left": "/pages/search/search-u-waterfall-left",
+    "search-u-waterfall-right": "/pages/search/search-u-waterfall-right",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

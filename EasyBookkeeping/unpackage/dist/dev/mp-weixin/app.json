@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index-income",
+    "pages/index/index-expend",
+    "pages/tongji/tongji-expend",
+    "pages/tongji/tongji-income",
+    "pages/tongji/uCharts/uCharts"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的记账",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#002043",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index-income",
+        "iconPath": "static/tabbar/统计.png",
+        "selectedIconPath": "static/tabbar/统计.png",
+        "text": "账单"
+      },
+      {
+        "pagePath": "pages/tongji/tongji-income",
+        "iconPath": "static/tabbar/账单.png",
+        "selectedIconPath": "static/tabbar/账单.png",
+        "text": "统计"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap24.json"
+}
