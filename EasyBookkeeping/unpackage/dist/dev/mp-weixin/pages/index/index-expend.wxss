@@ -504,14 +504,9 @@
 		-20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx 20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx -20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-justify-content: space-around;
-	        justify-content: space-around;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	justify-content: space-around;
+	align-items: center;
 }
 .start image{
 	width: 50rpx;
@@ -536,25 +531,14 @@
 		height: 60rpx;
 }
 .xianshi {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		        flex-direction: column;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		        justify-content: center;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		margin-right: 20rpx;
 }
 .shuzi {
-			-webkit-box-flex: 2;
-			-webkit-flex-grow: 2;
-			        flex-grow: 2;
+			flex-grow: 2;
 }
 .xiahuaxian{
 			width: 120rpx;
@@ -577,19 +561,10 @@
 .nav .sr{
 			width: 130rpx;
 			height: 60rpx;
-			display: -webkit-box;
-			display: -webkit-flex;
 			display: flex;
-			-webkit-box-orient: horizontal;
-			-webkit-box-direction: normal;
-			-webkit-flex-direction: row;
-			        flex-direction: row;
-			-webkit-box-pack: center;
-			-webkit-justify-content: center;
-			        justify-content: center;
-			-webkit-box-align: center;
-			-webkit-align-items: center;
-			        align-items: center;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
 			border: 1rpx solid #000;
 			border-radius: 20rpx;
 			/* padding-bottom: 10rpx; */
@@ -597,19 +572,10 @@
 .nav .zc{
 			width: 130rpx;
 			height: 60rpx;
-			display: -webkit-box;
-			display: -webkit-flex;
 			display: flex;
-			-webkit-box-orient: horizontal;
-			-webkit-box-direction: normal;
-			-webkit-flex-direction: row;
-			        flex-direction: row;
-			-webkit-box-pack: center;
-			-webkit-justify-content: center;
-			        justify-content: center;
-			-webkit-box-align: center;
-			-webkit-align-items: center;
-			        align-items: center;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
 			border: 1rpx solid #000;
 			border-radius: 20rpx;
 			/* padding-top: 10rpx; */
@@ -627,32 +593,17 @@
 		-20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx 20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx -20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-flex-wrap: wrap;
-	        flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 /*盒子内样式 */
 .mid .box {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-justify-content: space-around;
-	        justify-content: space-around;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
 	width: 100rpx;
 	height: 100rpx;
 	margin: 10rpx;
@@ -662,19 +613,10 @@
 }
 .mid .box .img {
 	/*图片在盒子里垂直水平居中 */
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	width: 100rpx;
 	height: 100rpx;
 	border-radius: 20rpx;
@@ -719,72 +661,42 @@
 		-10rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx 10rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx -10rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 }
 .bg {
 	background: #eee;
 }
 .btns {
-	-webkit-flex-basis: 75%;
-	        flex-basis: 75%;
-	display: -webkit-box;
-	display: -webkit-flex;
+	flex-basis: 75%;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 	font-size: 17pt;
 	border-top: 1rpx solid #ccc;
 	border-left: 1rpx solid #ccc;
 	border-radirs: 50rpx;
 }
 .btns>view {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
-	display: -webkit-box;
-	display: -webkit-flex;
+	flex: 1;
 	display: flex;
 }
 .btns>view>view {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 	border-right: 1rpx solid #ccc;
 	border-bottom: 1rpx solid #ccc;
 	box-sizing: border-box;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 .btns>view:last-child>view:first-child {
-	-webkit-flex-basis: 33%;
-	        flex-basis: 33%;
+	flex-basis: 33%;
 }
 .btns-gn {
-	-webkit-flex-basis: 25%;
-	        flex-basis: 25%;
-	display: -webkit-box;
-	display: -webkit-flex;
+	flex-basis: 25%;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
-	-webkit-justify-content: space-around;
-	        justify-content: space-around;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	font-size: 17pt;
 	background: #F4F5F6;
 }

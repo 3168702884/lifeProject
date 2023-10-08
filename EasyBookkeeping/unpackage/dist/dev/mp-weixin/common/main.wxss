@@ -8,29 +8,16 @@ page {
 	width: 96%;
 }
 .qiun-wrap {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	        flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 .qiun-rows {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal !important;
-	-webkit-box-direction: normal !important;
-	-webkit-flex-direction: row !important;
-	        flex-direction: row !important;
+	flex-direction: row !important;
 }
 .qiun-columns {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical !important;
-	-webkit-box-direction: normal !important;
-	-webkit-flex-direction: column !important;
-	        flex-direction: column !important;
+	flex-direction: column !important;
 }
 .qiun-common-mt {
 	margin-top: 10rpx;
@@ -44,8 +31,7 @@ page {
 .qiun-title-bar {
 	width: 96%;
 	padding: 10rpx 2%;
-	-webkit-flex-wrap: nowrap;
-	        flex-wrap: nowrap;
+	flex-wrap: nowrap;
 }
 .qiun-title-dot-light {
 	border-left: 10rpx solid #0ea391;
@@ -114,13 +100,8 @@ page {
 
 /*每个页面公共css */
 page{
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 	height: 100%;
 }
 

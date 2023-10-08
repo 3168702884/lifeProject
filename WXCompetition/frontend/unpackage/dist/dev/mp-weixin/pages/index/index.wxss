@@ -32,7 +32,6 @@
 .content .bg-card.data-v-57280228 {
   width: 100%;
   height: 400rpx;
-  background: -webkit-linear-gradient(45deg, #00DAFE, #00A8FF);
   background: linear-gradient(45deg, #00DAFE, #00A8FF);
   border-bottom: 1rpx solid linear-gradient(45deg, #00DAFE, #45D0EA);
   border-radius: 0rpx 0rpx 50rpx 50rpx;
@@ -46,15 +45,9 @@
 .content .card .card-market.data-v-57280228 {
   width: 670rpx;
   height: 350rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 60rpx auto;
@@ -69,15 +62,9 @@
   height: 150rpx;
   border: 1px solid #000000;
   border-radius: 10px;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .content .card .card-market .cardButton .cardFont.data-v-57280228 {
   color: #FFFFFF;

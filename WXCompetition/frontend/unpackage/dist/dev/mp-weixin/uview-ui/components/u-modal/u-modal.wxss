@@ -47,19 +47,11 @@
   color: #606266;
 }
 .u-model__footer.data-v-3626fcec {
-
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 .u-model__footer__button.data-v-3626fcec {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
   height: 100rpx;
   line-height: 100rpx;
   font-size: 32rpx;

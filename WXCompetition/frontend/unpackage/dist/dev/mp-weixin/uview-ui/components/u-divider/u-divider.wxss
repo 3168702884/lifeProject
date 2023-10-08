@@ -29,21 +29,10 @@
   width: 100%;
   position: relative;
   text-align: center;
-
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
-
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   flex-direction: row;
 }
@@ -72,8 +61,6 @@
 .u-divider-text.data-v-23bd18c4 {
   white-space: nowrap;
   padding: 0 16rpx;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: inline-flex;
 }
 

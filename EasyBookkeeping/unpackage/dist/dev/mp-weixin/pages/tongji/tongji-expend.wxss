@@ -197,14 +197,9 @@
 		-20rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx 20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1),
 		0rpx -20rpx 30rpx 0rpx rgba(0, 0, 0, 0.1);
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-justify-content: space-around;
-	        justify-content: space-around;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	justify-content: space-around;
+	align-items: center;
 }
 .start image {
 	width: 50rpx; 
@@ -237,19 +232,10 @@
 .nav .sr {
 	width: 130rpx;
 	height: 60rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	border: 1rpx solid #000;
 	border-radius: 20rpx;
 	/* padding-bottom: 10rpx; */
@@ -257,19 +243,10 @@
 .nav .zc {
 	width: 130rpx;
 	height: 60rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	border: 1rpx solid #000;
 	border-radius: 20rpx;
 	/* padding-top: 10rpx; */
